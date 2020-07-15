@@ -21,6 +21,10 @@ function currentLine(line){
     var people = "The line is currently: "
     for (var i = 0; i < line.length; i++) {
       people = people + `${i+1}. ${line[i]}`
+      if( i + 1 <line.length){
+        people = people +`,`
+      }
     }
+    return people
   }
 }
