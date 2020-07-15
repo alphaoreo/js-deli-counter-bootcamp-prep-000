@@ -9,7 +9,7 @@ function nowServing(line){
   }
   else {
     return line.shift()
-    
+
   }
 }
 
