@@ -18,9 +18,9 @@ function currentLine(line){
     return "The line is currently empty"
   }
   else{
-    var people = "The line is currently: "
+    var people = "The line is currently:"
     for (var i = 0; i < line.length; i++) {
-      people = people + `${i+1}. ${line[i]}`
+      people = people + ` ${i+1}. ${line[i]}`
       if( i + 1 <line.length){
         people = people +`,`
       }
